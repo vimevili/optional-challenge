@@ -1,12 +1,14 @@
 import './App.css'
-import Card from './components/UI/Card'
+import CurrentWeather from './components/weather/CurrentWeather'
+import Header from './components/Header'
 
 function App() {
 
   return (
-    <>
-      <Card />
-    </>
+    <div className='container bg-gradient'>
+      <Header />
+      <CurrentWeather />
+    </div>
   )
 }
 

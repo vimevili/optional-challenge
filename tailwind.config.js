@@ -4,11 +4,13 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
+
     colors: {
       'white-36': '#FFFFFF5C',
       'white-50': '#FFFFFF80',
       purple: '#303345',
-      gradient: 'linear-gradient(180deg, #FEE3BC 0%, #000000 100%)',
+      gradient:
+        'linear-gradient(180deg, rgba(254,227,188,1) 0%, rgba(0,0,0,1) 100%)',
       grey: '#9A938C',
       black: '#1B1919',
     },
@@ -16,11 +18,10 @@ export default {
       inter: ['Inter', 'sans-serif'],
     },
     fontSize: {
-      xs: '0.4375rem',
-      sm: '0.5625rem',
+      sm: '0.5rem',
       bs: '0.875rem',
       lg: '1.25rem',
-      xl: '2.6875rem',
+      xl: '2.75rem',
     },
     fontWeight: {
       normal: 400,
