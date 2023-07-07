@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <div className='flex justify-between p-4'>
-      <img src="../../public/images/search.svg" alt="search icon" />
-      <img src="../../public/images/menu.svg" alt="menu icon" />
+      <a href=""><img src="src\assets\img\search.svg" alt="search icon" /></a>
+      <a href=""><img src="src\assets\img\menu.svg" alt="menu icon" /></a>
     </div>
   )
 }
