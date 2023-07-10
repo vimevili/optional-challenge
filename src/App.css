@@ -1,4 +1,8 @@
 #root {
-    display: block;
-    
+    height: 100vh;
+    font-family: 'Inter';
+    color: #303345;
+    background: linear-gradient(180deg, rgba(254,227,188,1) 0%, rgba(181,181,181,1) 65%, rgba(226,226,226,1) 100%);
+    min-width: 320px;
 }
+
